@@ -55,6 +55,8 @@ award:
 
 The work is darkly comic, but its world isn't funny. It's absurd in the horrifying, existential sense. The humour comes from characters who remain stubbornly, recognizably human, even when they technically aren't any more.
 
+<div class="project-synopsis" markdown="1">
+
 ### Synopsis (Novel)
 
 CALEB TRYST is a Gen-X vampire, law-school dropout, aspiring private investigator, and walking disaster who survives through petty theft, fast talking, and an increasingly tenuous grip on his former humanity. He has two incompatible ambitions: to remain safely hidden from the world, and to discover who turned him into a vampire nearly thirty years ago.
@@ -119,7 +121,9 @@ In the pilot, a serial killer, **JOSHUA**, is murdering young working-class Vega
 
 The pilot frames the murders as a single killer case; the season reveals the machinery behind it. To stop further deaths and protect the vampire underground from exposure, they seek help from other vampires, including **ANGELINA**, Caleb’s ex and a disciplined poker pro, and **STELIAN**, a “glittering” daylight-capable vampire who can read psychic residue left by the dead. In parallel, homicide detectives **RITTER & WILCOX** hunt the same killer through conventional police work, steadily closing in on Caleb and the vampire community without knowing vampires exist.
 
-As the investigation deepens, Caleb realizes Joshua is not acting alone. Each lead pulls him closer to the truth that his own turning was not an accident, but part of a much older conflict — one that predates him, his turning, and Vegas itself. Each episode escalates the cost: the police investigation tightens, the vampire community fractures, and stopping the violence risks exposure while doing nothing guarantees more deaths.</div>
+As the investigation deepens, Caleb realizes Joshua is not acting alone. Each lead pulls him closer to the truth that his own turning was not an accident, but part of a much older conflict — one that predates him, his turning, and Vegas itself. Each episode escalates the cost: the police investigation tightens, the vampire community fractures, and stopping the violence risks exposure while doing nothing guarantees more deaths.
+
+</div>
 
 </details>
 
@@ -128,45 +132,6 @@ Even as mysteries are solved, and the truth gets closer, the damage remains. Dig
 Bat Country is an episodic, case-driven drama but with a serialized long-term arc. A neon-noir crime series that’s a bit Fargo meets The X-Files in Las Vegas… with vampires. The true monster is the system that feeds on the vulnerable, and the most dangerous bloodsucker is the city itself.
 
 Instead of focusing on redemption or damnation, this series explores harm reduction, endurance, and community as forms of resistance against injustice. It does not demand moral purity of its characters. It accepts moral compromise without romanticizing it.
-
-Pants awakens in the morgue undead, traumatized, and furious. Caleb wants her to come with him. Pants punches him in the face and runs. Worse, security footage of her resurrection reaches LVMPD detectives WILCOX and RITTER. Wilcox confronts an apparently impossible crime scene, while Ritter recognizes Caleb's battered denim jacket from an unsolved serial murder investigation three decades earlier.
-
-With the detectives closing in, Pants reluctantly agrees to help Caleb find Joshua, believing it may be her only chance at justice. Their investigation leads them through Las Vegas's hidden vampire underworld, populated by grifters, scavengers, occultists, and predators surviving in the city's margins. Caleb recruits his ex-girlfriend ANGELINA and his former protégé STELIAN, a Twilight-style “glitterboy” with a talent for necromancy, to help track Joshua through supernatural optography.
-
-Meanwhile, Ritter connects Caleb to CALVIN TRENT, Caleb’s former human identity, implicated in the earlier killings. Pants discovers the horrifying truth: Caleb indeed was the serial killer of the previous generational cycle, committing murders while under supernatural mind control. The revelation shatters what little trust Pants and Angelina have in him.
-
-Abandoned by his allies, Caleb continues the investigation alone until Joshua captures him and threatens to entomb him in a garlic-filled concrete coffin. Caleb's instinctive supernatural cry for help (dubbed the “bat-signal”) alerts Pants and Angelina. They race to rescue him. Well, Angelina races. Pants comes along for the ride.
-Pants, now having “revamped” as PANTESSA, and Angelina recover the concrete slab, only to discover the coffin empty. They seek answers at a gathering of Las Vegas vampires that resembles a support group more than an elaborate supernatural court.
-
-Caleb, meanwhile, has escaped by convincing Joshua that they are victims of the same conspiracy. Having experienced the compulsion himself, Caleb understands Joshua's predicament and promises to help free him. But Caleb fears his cry for help may also have alerted his unknown sire, whom he suspects of orchestrating the murders. To conceal his escape, he stages an elaborate Vegas magic trick, leaving behind an apparently occupied coffin buried in concrete.
-
-While Pantessa and Angelina search for answers, Caleb and Joshua uncover a shared family bloodline with connections to the Dracula legend.
-
-The group eventually reunites at a Motel 6. Caleb acknowledges the terrible way he has treated Pantessa and asks for a second chance to become a better sire. She makes no promise of forgiveness, agreeing only to keep an open mind.
-
-To investigate the family connection, Caleb must confront something he has avoided for decades: coming out as a vampire to his eighty-year-old father. Angelina accompanies him for support, and after a heartwrenching phone call, his father confirms that he, too, was once controlled to kill. Meanwhile, Pantessa and Stelian escort Joshua home to collect his belongings. Pantessa keeps an eye on Joshua to make sure he doesn’t start killing again. Stelian keeps an eye on Pantessa to make sure she doesn’t kill Joshua. After all, the guy did murder her...
-
-At Joshua's house, the three encounter Caleb's sire, summoned by the bat-signal. They are hopelessly outmatched, but their visitor reveals a startling truth: he is DRACULA himself. And he is not responsible for the murders.
-
-Dracula explains that his former servant, RENFIELD, has become a psychic predator who feeds on coercion and cruelty. Through recurring ritual killings, Renfield has accumulated supernatural power at an unnatural rate, seeking to rival his former master. Caleb was turned because Renfield had used him as a proxy in the previous cycle of sacrifices — Dracula turned him to sever the link Renfield was using to control him.
-
-Caleb realizes that Renfield's control over Joshua may depend on proximity. Dracula agrees to shelter Joshua beyond Renfield's reach, leaving the unfortunate killer to contemplate the irony that the safest place to hide from vampires is Dracula's guest bedroom.
-
-With the mystery of his origins apparently resolved, Caleb finally begins to relax. Then he recognizes the trap: Renfield has exploited Caleb's own bat-signal to lure Dracula into the open.
-
-Renfield has already set a bomb on Dracula’s private jet, intending for it to go off at sunrise. Caleb barely manages to warn Dracula and Joshua in time. Both survive, though not without considerable indignity, and Joshua escapes Renfield’s control. Renfield himself, however, remains elusive.
-
-Caleb began his investigation wanting to know who made him a monster. He discovered that Dracula made him a vampire, Renfield made him a killer, but his own choices made him responsible for what happened to Pantessa.
-
-The cycle of murders is broken, but survival isn't absolution. Pantessa hasn't forgiven him. She's willing, however, to see whether he can become someone worth forgiving.
-
-Believing the nightmare is over for now, Caleb returns to retrieve his car, abandoned when Joshua kidnapped him
-
-Ritter and Wilcox are waiting for him.
-
-</div>
-</details>
-</div>
 
 <div class="project-writers-note" markdown="1">
 ### Writer's Note
