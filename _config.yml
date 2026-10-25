@@ -1,0 +1,17 @@
+title: Kerry Ann Burke
+description: Screenwriting, fiction and comedy
+url: "https://kerryboyko.github.io"
+baseurl: "/screenwriting"
+markdown: kramdown
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+exclude:
+  - README.md

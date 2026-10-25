@@ -1,0 +1,489 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap");
+:root {
+  color-scheme: dark;
+  --bg: #171719;
+  --panel: #272429;
+  --text: #f0e9dc;
+  --muted: #b7aaa5;
+  --accent: #c99a83;
+  --line: #4c3b43;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font:
+    16px/1.65 "DM Sans",
+    sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
+}
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+.wrap {
+  width: min(1120px, calc(100% - 48px));
+  margin-inline: auto;
+}
+.skip {
+  position: absolute;
+  top: -100px;
+  left: 12px;
+  background: var(--text);
+  color: var(--bg);
+  padding: 8px;
+}
+.skip:focus {
+  top: 12px;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 28px;
+  border-bottom: 1px solid var(--line);
+  gap: 20px;
+}
+.wordmark {
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  font-size: 0.92rem;
+}
+.site-header nav {
+  display: flex;
+  gap: 26px;
+  font-size: 0.85rem;
+}
+.hero {
+  padding-block: 110px 115px;
+  max-width: 1120px;
+}
+.eyebrow {
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  line-height: 1.13;
+  font-weight: 500;
+}
+h1 {
+  font-size: clamp(3.2rem, 8vw, 7.2rem);
+  letter-spacing: -0.035em;
+  margin: 18px 0 24px;
+  max-width: 900px;
+}
+h1 em {
+  color: var(--accent);
+}
+.intro,
+.lead {
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  color: var(--muted);
+  max-width: 700px;
+}
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+  margin-bottom: 26px;
+}
+.section-heading h2 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 55px 28px;
+}
+.project-card.featured {
+  grid-column: 1/-1;
+}
+.poster {
+  aspect-ratio: 16/10;
+  background: linear-gradient(135deg, #603847, #241e26 62%, #141416);
+  display: flex;
+  align-items: end;
+  padding: clamp(20px, 4vw, 55px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: filter 0.2s;
+}
+.project-card:hover .poster {
+  filter: brightness(1.2);
+}
+.poster-title {
+  font:
+    500 clamp(2.1rem, 5vw, 5rem)/1.1 "Playfair Display",
+    Georgia,
+    serif;
+  max-width: 700px;
+}
+.project-card:not(.featured) .poster {
+  aspect-ratio: 4/3;
+}
+.project-card:not(.featured) .poster-title {
+  font-size: clamp(1.8rem, 3vw, 3.5rem);
+}
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  margin-top: 17px;
+}
+.project-card h3 {
+  font-size: 1.85rem;
+  margin: 6px 0;
+}
+.project-card p {
+  color: var(--muted);
+  margin: 0;
+  max-width: 650px;
+}
+.about-teaser {
+  border-top: 1px solid var(--line);
+  margin-top: 110px;
+  padding-block: 70px 100px;
+}
+.about-teaser h2 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+.about-teaser p:not(.eyebrow) {
+  color: var(--muted);
+}
+.text-link,
+.back {
+  color: var(--accent);
+}
+.footer {
+  border-top: 1px solid var(--line);
+  padding-block: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.simple-page,
+.project-detail {
+  padding-block: 85px 120px;
+  min-height: 65vh;
+}
+.simple-page h1,
+.project-detail h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+}
+.prose {
+  max-width: 750px;
+  font-size: 1.08rem;
+}
+.detail-art {
+  display: block;
+  width: 100%;
+  max-height: 680px;
+  object-fit: contain;
+  margin: 50px 0;
+}
+.back {
+  display: inline-block;
+  margin-bottom: 45px;
+}
+.links {
+  margin-top: 50px;
+}
+.links a {
+  display: block;
+  color: var(--accent);
+  margin: 12px 0;
+}
+@media (max-width: 680px) {
+  .wrap {
+    width: min(100% - 32px, 1120px);
+  }
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: 20px;
+  }
+  .site-header nav {
+    gap: 20px;
+  }
+  .hero {
+    padding-block: 65px 80px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+  .project-card.featured {
+    grid-column: auto;
+  }
+  .project-card .poster {
+    aspect-ratio: 4/3;
+  }
+  .section-heading {
+    display: block;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .about-teaser {
+    margin-top: 75px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+  }
+}
+
+.laurels {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.laurels img {
+  width: 180px;
+  height: auto;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.laurel-info {
+  flex: 1;
+  min-width: 220px;
+}
+
+.tagline {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.015em;
+
+  color: #d8c5b6;
+  max-width: 650px;
+  margin: 1.5rem 0 2rem;
+
+  text-wrap: balance;
+}
+
+.comps {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.7;
+
+  color: #b9aaa5;
+  margin: 1rem 0 2rem;
+  max-width: 700px;
+}
+
+.comps strong {
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #c9a5a5;
+  margin-right: 0.5rem;
+}
+
+.comps a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #76575b;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.comps a:hover {
+  color: #f2ece6;
+  border-color: currentColor;
+}
+
+.project-formats {
+  margin: 2rem 0;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 0.75rem 1rem;
+    vertical-align: top;
+  }
+
+  th {
+    border-bottom: 1px solid #555;
+  }
+
+  td {
+    border-bottom: 1px solid #333;
+  }
+
+  th:first-child,
+  td:first-child {
+    padding-left: 0;
+  }
+
+  th:last-child,
+  td:last-child {
+    padding-right: 0;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-header__award img {
+    width: 150px;
+  }
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-header__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-header__award {
+  flex: 0 0 160px;
+  margin: 0;
+  text-align: center;
+}
+
+.project-header__award img {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.project-header__award a:hover img,
+.project-header__award a:focus-visible img {
+  outline: 2px solid #b88c7a;
+  outline-offset: 4px;
+}
+
+.project-header__award a {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.project-header__award figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--text-muted, #aaa);
+}
+
+.project-synopsis {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.project-writers-note {
+  margin-top: 2rem;
+}
+
+.project-formats a {
+  color: #c49a88;
+  text-decoration: none;
+}
+
+.project-formats a:hover,
+.project-formats a:focus-visible {
+  text-decoration: underline;
+}
+
+.review-quote {
+  text-align: justify;
+  p {
+    margin: 0 0 0.75rem;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  strong {
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  footer {
+    font-size: 0.85rem;
+    opacity: 0.75;
+  }
+}
+
+.project-synopsis summary {
+  color: #c49a88;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:focus-visible {
+    text-decoration: underline;
+  }
+}

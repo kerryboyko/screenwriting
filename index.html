@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<section class="hero wrap">
+  <h1>At first, they're funny stories.<br/><em>Then they get sad.</em></h1><h2>(Which makes it even funnier.)</h2>
+  <p class="intro">
+    Screenplays, novels and original television by Kerry Ann Burke.
+  </p>
+</section>
+<section class="wrap" id="work" aria-labelledby="work-heading">
+  <div class="section-heading">
+    <p class="eyebrow">THE PORTFOLIO</p>
+  <p class="eyebrow">SELECTED WORK · FILM / TELEVISION / BOOKS</p>
+  </div>
+  <div class="project-grid">
+    {% assign sorted_projects = site.projects | sort: 'order' %} {% for project
+    in sorted_projects %}
+    <a
+      class="project-card {% if forloop.first %}featured{% endif %}"
+      href="{{ project.url | relative_url }}"
+    >
+      <div
+        class="poster {% if project.artwork %}has-art{% endif %}"
+        {%
+        if
+        project.artwork
+        %}style="background-image:url('{{ project.artwork | relative_url }}')"
+        {%
+        endif
+        %}
+      >
+        {% unless project.artwork %}<span class="poster-title"
+          >{{ project.title }}</span
+        >{% endunless %}
+      </div>
+      <div class="card-meta">
+        <span>{{ project.format }}</span><span aria-hidden="true">↗</span>
+      </div>
+      <h3>{{ project.title }}</h3>
+      <div class="card-meta"><span>{{ project.genre }}</span></div>
+
+      {% if project.logline %}
+      <p>{{ project.logline }}</p>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+<section class="wrap about-teaser">
+  <p class="eyebrow">ABOUT THE WRITER</p>
+  <h2>Kerry Ann Burke</h2>
+  <p>Screenwriter, novelist and comedian.</p>
+  <a class="text-link" href="{{ '/about/' | relative_url }}">Read more ↗</a>
+  <section class="homepage-about">
+    {% capture about_content %}{% include about-content.md %}{% endcapture %} {{
+    about_content | markdownify }}
+  </section>
+</section>
