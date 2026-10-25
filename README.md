@@ -1,5 +1,11 @@
 # Kerry Ann Burke — Jekyll portfolio starter
 
+Reminder: 
+
+```bash
+bundle exec jekyll serve --livereload
+```
+
 A work-first cinematic portfolio for GitHub Pages.
 
 ## Deploy

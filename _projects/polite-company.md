@@ -13,13 +13,13 @@ formats:
     status: Complete
     url: /assets/scripts/polite-company-stage-latest.pdf
 
-  - name: Short Film
+  - name: Short Film Screenplay
     length: 7 pages
     variant: American
     status: Complete
     url: /assets/scripts/polite-company-short-american-latest.pdf
 
-  - name: Short Film
+  - name: Short Film Screenplay
     length: 7 pages
     variant: Irish
     status: Complete
