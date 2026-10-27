@@ -2,8 +2,10 @@
 layout: default
 ---
 
+{% capture about_content %} {% include about-content.md %} {% endcapture %}
 <section class="hero wrap">
-  <h1>At first, they're funny stories.<br/><em>Then they get sad.</em></h1><h2>(Which makes it even funnier.)</h2>
+  <h1>At first, they're funny stories.<br /><em>Then they get sad.</em></h1>
+  <h2>(Which makes it even funnier.)</h2>
   <p class="intro">
     Screenplays, novels and original television by Kerry Ann Burke.
   </p>
@@ -11,7 +13,7 @@ layout: default
 <section class="wrap" id="work" aria-labelledby="work-heading">
   <div class="section-heading">
     <p class="eyebrow">THE PORTFOLIO</p>
-  <p class="eyebrow">SELECTED WORK · FILM / TELEVISION / BOOKS</p>
+    <p class="eyebrow">SELECTED WORK · FILM / TELEVISION / BOOKS</p>
   </div>
   <div class="project-grid">
     {% assign sorted_projects = site.projects | sort: 'order' %} {% for project
@@ -53,7 +55,17 @@ layout: default
   <p>Screenwriter, novelist and comedian.</p>
   <a class="text-link" href="{{ '/about/' | relative_url }}">Read more ↗</a>
   <section class="homepage-about">
-    {% capture about_content %}{% include about-content.md %}{% endcapture %} {{
-    about_content | markdownify }}
+    <div class="about-layout">
+      <div class="about-photo">
+        <img
+          src="{{ '/assets/images/kerry-ann-burke.jpg' | relative_url }}"
+          alt="Kerry Ann Burke"
+        />
+      </div>
+
+      <div class="about-bio" markdown="1">
+        {{ about_content | markdownify }}
+      </div>
+    </div>
   </section>
 </section>
