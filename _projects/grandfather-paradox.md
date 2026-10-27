@@ -30,7 +30,7 @@ When David finally puts his plan into action, the universe responds with a cruel
 
 Trapped in a self-correcting paradox, David is forced to confront a future he never wanted, and the possibility that, despite everything, his life might have meant something after all.
 
-With a little gallows humor and an absurdist twist, *Grandfather Paradox* is a existential, bittersweet, science ficture short about despair, the unexpected consequences of our choices, and the difference between living a perfect life and living one worth having.
+With a little gallows humor and an absurdist twist, *Grandfather Paradox* is an existential, bittersweet, science fiction short about despair, the unexpected consequences of our choices, and the difference between living a perfect life and living one worth having.
 
 
 </div>

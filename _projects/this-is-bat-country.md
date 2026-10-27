@@ -51,7 +51,7 @@ award:
 
 <div class="project-synopsis" markdown="1">
 
-**_This Is Bat Country_** is an neon-noir crime thriller about modern vampires surviving on the margins of off-Strip, working-class Las Vegas, while a series of killings threatens their exposure.
+**_This Is Bat Country_** is a neon-noir crime thriller about modern vampires surviving on the margins of off-Strip, working-class Las Vegas, while a series of killings threatens their exposure.
 
 The work is darkly comic, but its world isn't funny. It's absurd in the horrifying, existential sense. The humour comes from characters who remain stubbornly, recognizably human, even when they technically aren't any more.
 
@@ -123,15 +123,15 @@ The pilot frames the murders as a single killer case; the season reveals the mac
 
 As the investigation deepens, Caleb realizes Joshua is not acting alone. Each lead pulls him closer to the truth that his own turning was not an accident, but part of a much older conflict — one that predates him, his turning, and Vegas itself. Each episode escalates the cost: the police investigation tightens, the vampire community fractures, and stopping the violence risks exposure while doing nothing guarantees more deaths.
 
-</div>
-
-</details>
-
 Even as mysteries are solved, and the truth gets closer, the damage remains. Dignity is optional. Survival isn’t.
 
 Bat Country is an episodic, case-driven drama but with a serialized long-term arc. A neon-noir crime series that’s a bit Fargo meets The X-Files in Las Vegas… with vampires. The true monster is the system that feeds on the vulnerable, and the most dangerous bloodsucker is the city itself.
 
 Instead of focusing on redemption or damnation, this series explores harm reduction, endurance, and community as forms of resistance against injustice. It does not demand moral purity of its characters. It accepts moral compromise without romanticizing it.
+
+</div>
+
+</details>
 
 <div class="project-writers-note" markdown="1">
 ### Writer's Note
