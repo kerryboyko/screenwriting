@@ -43,8 +43,7 @@ award:
         maybe even Apple TV+ are looking for."
       </p>
       <footer>
-        The Black List
-        <span class="review-score">7/10</span> | June 2026
+        The Black List | June 2026
       </footer>
     </div>
 ---
