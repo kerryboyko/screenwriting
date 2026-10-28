@@ -7,11 +7,19 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  ideas:
+    output: true
+    permalink: /ideas/:name/
 defaults:
   - scope:
       path: ""
       type: projects
     values:
       layout: project
+  - scope:
+      path: ""
+      type: ideas
+    values:
+      layout: idea
 exclude:
   - README.md

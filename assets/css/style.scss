@@ -496,7 +496,7 @@ h1 em {
 
 .about-photo {
   flex: 0 0 200px;
-  margin-top:0.25rem;
+  margin-top: 0.25rem;
 }
 
 .about-photo img {
@@ -525,4 +525,66 @@ h1 em {
     flex: none;
     width: 200px;
   }
+}
+
+.backburner-list {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.backburner-entry {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color, #444);
+}
+
+.backburner-entry h2 {
+  margin: 0 0 0.5rem;
+}
+
+.idea-meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.idea-content {
+  margin-top: 2rem;
+}
+
+.marked_link {
+  border-bottom: 1px solid #76575b;
+  &:hover,
+  &:focus-visible {
+    border-bottom: none;
+  }
+}
+
+.potential_formats {
+  color: #76575b;
+}
+
+.title-ai {
+  font-family: "Orbitron", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: normal;
+  color: yellow;
+}
+
+.jiminy_tagline {
+  font-style: italic;
+}
+
+
+.jiminy1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+.jiminy2 {
+  font-family: inherit;  
+}
+.jiminy3 {
+  font-family: 'Orbitron', monospace;
 }

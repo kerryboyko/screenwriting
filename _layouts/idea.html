@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="wrap simple-page idea-page">
+
+  <p class="eyebrow">THE BACK BURNER</p>
+
+<h1>{{ page.display_title | default: page.title }}</h1>
+
+   {% if page.genre or page.status %}
+          <p class="page-meta">
+            {{ page.genre }}
+            {% if page.genre and page.status %} &middot; {% endif %}
+            {{ page.status }}
+          </p>
+        {% endif %}
+  {% if page.potential_formats %}
+<div class="potential_formats">
+  <span class="meta-label">Potential Formats:</span>
+  {{ page.potential_formats | join: " · " }}
+</div>
+{% endif %}
+  <div class="idea-content">
+    {{ content }}
+  </div>
+
+
+
+  <p>
+    <a href="{{ '/ideas/' | relative_url }}">
+      &larr; Back to the Back Burner
+    </a>
+  </p>
+
+</article>

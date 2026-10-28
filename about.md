@@ -53,7 +53,7 @@ I've found that, rather than confusing audiences, comedy underlines tragedy. It 
 
 I'm based in Dún Laoghaire, Ireland, and interested in opportunities to develop original film and television projects, collaborate with filmmakers, and bring unusual stories to the screen.
 
-[If something I've written interests you, I'd love to hear from you.]({{ '/contact/' | relative_url }})
+[If something I've written interests you, I'd love to hear from you.]({{ '/contact/' | relative_url }}){: .marked_link }
 
 {% endcapture %}
 

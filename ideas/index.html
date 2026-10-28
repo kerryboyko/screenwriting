@@ -1,0 +1,71 @@
+---
+layout: default
+title: The Back Burner
+permalink: /ideas/
+---
+{% capture explain %}
+
+This is a collection of projects on my back burner: ideas that I haven't yet developed into finished works, but which are sufficiently formed to describe.
+
+I'm sharing them here for two reasons.
+
+First, I believe this is the ideal stage to bring other writers into the creative process. It's an opportunity to explore possibilities, challenge assumptions, and test ideas before committing the time and effort required to write a first draft.
+
+Second, these projects offer a glimpse into the kinds of stories I'm interested in telling, the genres I enjoy working in, and the sort of writing I might bring to a collaboration.
+
+[If any of these ideas interest you in collaboration, I'd love to hear from you.]({{ '/contact/' | relative_url }}){: .marked_link }
+
+{% endcapture %}
+  
+
+<section class="wrap simple-page">
+
+  <p class="eyebrow">WORKS IN PROGRESS</p>
+
+  <h1>The Back Burner</h1>
+
+  <p class="lead">
+    Half-baked ideas, strange premises, and stories
+    that haven't quite escaped into the world.
+  </p>
+
+{% assign ideas = site.ideas | sort: "date" | reverse%}
+  {{ explain | markdownify }}
+
+  <div class="backburner-list">
+    {% for idea in ideas %}
+
+      <article class="backburner-entry">
+
+        <h2>
+          <a href="{{ idea.url | relative_url }}" class="marked_link">
+      {{ idea.display_title | default: idea.title }}
+
+          </a>
+        </h2>
+
+        {% if idea.genre or idea.status %}
+          <p class="idea-meta">
+            {{ idea.genre }}
+            {% if idea.genre and idea.status %} &middot; {% endif %}
+            {{ idea.status }}
+          </p>
+        {% endif %}
+
+        {% if idea.description %}
+          <p>{{ idea.description }}</p>
+        {% else %}
+          <p>{{ idea.content | strip_html | truncatewords: 25 }}</p>
+        {% endif %}
+
+        <a href="{{ idea.url | relative_url }}">
+          Read more &rarr;
+        </a>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+
+</section>
