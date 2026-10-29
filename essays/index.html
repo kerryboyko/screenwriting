@@ -1,0 +1,75 @@
+---
+layout: default
+title: Essays
+permalink: /essays/
+---
+
+{% capture explain %}
+
+I spent a decade working as a journalist before becoming a software engineer, and somewhere along the way I developed the unfortunate habit of having opinions about things.
+
+_Essays_ is a collection of longer-form writing about storytelling, film, television, technology, culture, and whatever else catches my attention.
+
+Some pieces are serious examinations of subjects I care about. Others are observations, arguments, or attempts to make sense of a world that frequently seems determined not to make any.
+
+They don't necessarily have much in common beyond one thing: I thought they were worth writing down.
+
+{% endcapture %}
+
+<section class="wrap simple-page">
+
+  <p class="eyebrow">THOUGHTS & OBSERVATIONS</p>
+
+  <h1>Essays</h1>
+
+  <p class="lead">
+    Writing about stories, culture, technology,
+    and the peculiar business of being human.
+  </p>
+
+  {{ explain | markdownify }}
+
+  {% assign essays = site.essays | sort: "date" | reverse %}
+
+  <div class="essay-list">
+
+    {% for essay in essays %}
+
+      <article class="essay-entry">
+
+        <h2>
+          <a href="{{ essay.url | relative_url }}" class="marked_link">
+            {{ essay.display_title | default: essay.title }}
+          </a>
+        </h2>
+
+        <p class="essay-meta">
+          {% if essay.date %}
+            <time datetime="{{ essay.date | date: '%Y-%m-%d' }}">
+              {{ essay.date | date: "%d %B %Y" }}
+            </time>
+          {% endif %}
+
+          {% if essay.category %}
+            {% if essay.date %} &middot; {% endif %}
+            {{ essay.category }}
+          {% endif %}
+        </p>
+
+        {% if essay.description %}
+          <p>{{ essay.description }}</p>
+        {% else %}
+          <p>{{ essay.content | markdownify | strip_html | truncatewords: 45 }}</p>
+        {% endif %}
+
+        <a href="{{ essay.url | relative_url }}">
+          Read essay &rarr;
+        </a>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+
+</section>

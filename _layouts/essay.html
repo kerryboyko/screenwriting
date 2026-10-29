@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="wrap simple-page essay-page">
+
+  <p class="eyebrow">ESSAYS</p>
+
+  <h1>{{ page.display_title | default: page.title }}</h1>
+
+  {% if page.date or page.category %}
+    <p class="page-meta">
+      {% if page.date %}
+        <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+          {{ page.date | date: "%d %B %Y" }}
+        </time>
+      {% endif %}
+
+      {% if page.date and page.category %} &middot; {% endif %}
+
+      {% if page.category %}
+        {{ page.category }}
+      {% endif %}
+    </p>
+  {% endif %}
+
+  {% if page.description %}
+    <p class="lead">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="essay-content">
+    {{ content }}
+  </div>
+
+  <p>
+    <a href="{{ '/essays/' | relative_url }}">
+      &larr; Back to Essays
+    </a>
+  </p>
+
+</article>
+
+<script defer src="{{ '/assets/js/fountain.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/fountain-renderer.js' | relative_url }}"></script>

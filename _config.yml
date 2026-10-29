@@ -10,6 +10,9 @@ collections:
   ideas:
     output: true
     permalink: /ideas/:name/
+  essays:
+    output: true
+    permalink: /essays/:name/
 defaults:
   - scope:
       path: ""
@@ -21,5 +24,10 @@ defaults:
       type: ideas
     values:
       layout: idea
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: essay
 exclude:
   - README.md

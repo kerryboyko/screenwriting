@@ -1,0 +1,29 @@
+<div class="movie-entry">
+
+  {% if include.poster %}
+    <img
+      src="{{ include.poster | relative_url }}"
+      alt="{{ include.title }} poster"
+      class="movie-poster"
+      loading="lazy"
+    >
+  {% endif %}
+
+  <div class="movie-details">
+
+    <h3>
+      {% if include.imdb %}
+        <a href="{{ include.imdb }}" target="_blank" rel="noopener noreferrer">
+          {{ include.title }}
+        </a>
+      {% else %}
+        {{ include.title }}
+      {% endif %}
+      ({{ include.year }})
+    </h3>
+
+    {{ include.content | markdownify }}
+
+  </div>
+
+</div>

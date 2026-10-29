@@ -588,3 +588,136 @@ h1 em {
 .jiminy3 {
   font-family: 'Orbitron', monospace;
 }
+
+.movie-entry {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.movie-poster {
+  width: 100px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.movie-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.movie-details h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 500px) {
+  .movie-entry {
+    gap: 1rem;
+  }
+
+  .movie-poster {
+    width: 75px;
+  }
+}
+
+
+/* Screenplay excerpts */
+
+.fountain-screenplay {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 65ch;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: #faf9f6;
+  color: #181818;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  line-height: 1.35;
+}
+
+.fountain-screenplay *,
+.fountain-screenplay *::before,
+.fountain-screenplay *::after {
+  box-sizing: border-box;
+}
+
+.fountain-output p {
+  margin: 0 0 1em;
+  font: inherit;
+  overflow-wrap: anywhere;
+}
+
+.fountain-output h2,
+.fountain-output h3 {
+  font: inherit;
+  font-weight: bold;
+  margin: 1.5em 0 1em;
+}
+
+.fountain-output .dialogue {
+  width: 65%;
+  margin: 1em auto;
+}
+
+.fountain-output .dialogue p {
+  margin-bottom: 0;
+}
+
+.fountain-output .character {
+  margin-left: 25%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.fountain-output .parenthetical {
+  margin-left: 15%;
+  margin-bottom: 0;
+}
+
+.fountain-output .transition {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.fountain-output .scene-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fountain-output .dual-dialogue {
+  display: flex;
+  gap: 1rem;
+}
+
+.fountain-output .dual-dialogue > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.fountain-output .bold {
+  font-weight: bold;
+}
+
+.fountain-output .italic {
+  font-style: italic;
+}
+
+.fountain-output .underline {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .fountain-screenplay {
+    padding: 1.25rem 0.75rem;
+    font-size: 10pt;
+  }
+
+  .fountain-output .dialogue {
+    width: 85%;
+  }
+}
