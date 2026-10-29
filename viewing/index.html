@@ -1,0 +1,49 @@
+---
+layout: default
+title: Required Viewing
+permalink: /viewing/
+---
+
+{% capture intro_text %}
+{% include required-viewing-intro-text.md %}
+{% endcapture %}
+
+<section class="wrap simple-page">
+  <p class="eyebrow">SCREENWRITING CRAFT</p>
+  <h1>Required Viewing</h1>
+
+  {{ intro_text | strip | markdownify }} 
+  
+  {% assign movies = site.viewing | sort:
+  "title" %}
+
+  <hr />
+
+  <div class="viewing-list">
+    {% for movie in movies %}
+    <article class="viewing-item">
+      {% if movie.poster %}
+      <a href="{{ movie.url | relative_url }}" class="viewing-poster-link">
+        <img
+          class="viewing-poster"
+          src="{{ movie.poster | relative_url }}"
+          alt="{{ movie.title | escape }} poster"
+          loading="lazy"
+        />
+      </a>
+      {% endif %}
+      <div class="viewing-item-content">
+        <h2>
+          <a href="{{ movie.url | relative_url }}"> {{ movie.title }} </a>
+        </h2>
+
+        <p class="viewing-meta">{{ movie.year }} · {{ movie.category }}</p>
+
+        {% if movie.summary %}
+        <p>{{ movie.summary }}</p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
