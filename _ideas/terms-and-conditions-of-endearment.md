@@ -52,3 +52,11 @@ The protagonist's transness is part of who she is, not a twist or the central ob
 Mostly, it's about discovering that the terms and conditions of a shared life aren't the opposite of romance. Sometimes they're how two people describe the life they want to build.
 
 (And yes, this is both autobiographical and a love letter to my girlfriend.)
+
+Some development notes: I need to figure out the Irish woman's compelling internal dilemma — I have some ideas, all focused around the idea of "how much of herself is she willing to give up to build a life with someone she loves.
+
+But also — and this is the real thing. This situation is happening _in real life, right now_, and the one thing I don't want to do is write _fanfic of my own life_ only to have real life not work out that way. So I want to see how real life plays out first.
+
+There's something potentially strange about turning an unresolved personal situation into a narrative before you've finished living it. This _particular_ story can wait.
+
+That said... I think it's still a great concept. We'll see what happens.
