@@ -803,3 +803,52 @@ h1 em {
     max-width: 100%;
   }
 }
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+/* Remove the browser's default disclosure triangle */
+.nav-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Add our own dropdown indicator */
+.nav-dropdown summary::after {
+  content: " ▾";
+  font-size: 0.8em;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  padding: 0.5rem 0;
+  background: var(--surface, #222);
+  border: 1px solid var(--border, #444);
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  background: rgba(128, 128, 128, 0.15);
+}
