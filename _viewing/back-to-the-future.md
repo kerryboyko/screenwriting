@@ -37,7 +37,7 @@ Look at what we're learning from that one exchange:
 
 Pick any scene in _Back To The Future_ and it will often be doing multiple things at once. When Marty wakes his father from a dead sleep using Van Halen, it not only advances the plot, it also establishes Marty's character as an outside-the-box thinker _and_ provides a comedic beat _and_ provides character motivation for George _and_ sets up the joke at the end of the movie where it serves as inspiration for George's sci-fi novel.
 
-And it's got dead-on three-act structure and pacing. Act I sets up Marty as down on his luck and establishes the circumstances. We break into Act II when he travels accidentally to 1955. In the middle, (literally... this scene ends at the 56:00 mark of a 1:52:00 film... not including the credits), we get the big mid-point turn:
+And it's got dead-on three-act structure and pacing. Act I sets up Marty as down on his luck and establishes the circumstances. We break into Act II when he travels accidentally to 1955. In the middle, (literally... this scene ends at the 56:00 mark of a 1:52:00 film... not including the 4 minute credits), we get the big mid-point turn:
 
 - Marty shows Doc the video he took in 1985.
 - Doc learns the DeLorean requires 1.21 gigawatts, and establishes that finding a power source for that in 1955 is impossible, except for a bolt of lightning... "except you don't know where and when one will strike."
