@@ -1,0 +1,41 @@
+.footer {
+  border-top: 1px solid var(--line);
+  padding-block: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.simple-page,
+.project-detail {
+  padding-block: 85px 120px;
+  min-height: 65vh;
+}
+.simple-page h1,
+.project-detail h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+}
+.prose {
+  max-width: 750px;
+  font-size: 1.08rem;
+}
+.detail-art {
+  display: block;
+  width: 100%;
+  max-height: 680px;
+  object-fit: contain;
+  margin: 50px 0;
+}
+.back {
+  display: inline-block;
+  margin-bottom: 45px;
+}
+.links {
+  margin-top: 50px;
+}
+.links a {
+  display: block;
+  color: var(--accent);
+  margin: 12px 0;
+}

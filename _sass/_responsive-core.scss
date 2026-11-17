@@ -1,0 +1,43 @@
+@media (max-width: 680px) {
+  .wrap {
+    width: min(100% - 32px, 1120px);
+  }
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: 20px;
+  }
+  .site-header nav {
+    gap: 20px;
+  }
+  .hero {
+    padding-block: 65px 80px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+  .project-card.featured {
+    grid-column: auto;
+  }
+  .project-card .poster {
+    aspect-ratio: 4/3;
+  }
+  .section-heading {
+    display: block;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .about-teaser {
+    margin-top: 75px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+  }
+}

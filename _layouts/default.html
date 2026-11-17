@@ -1,48 +1,66 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#171719" />
-    <meta
-      name="description"
-      content="{{ page.description | default: site.description | escape }}"
-    />
-    <title>
-      {% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title }}
-    </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/style.css' | relative_url }}"
-    />
-  </head>
-  <body>
-    <a class="skip" href="#content">Skip to content</a>
-    <header class="site-header wrap">
-      <a class="wordmark" href="{{ '/' | relative_url }}">KERRY ANN BURKE</a>
-      <nav aria-label="Main navigation">
-        <a href="{{ '/#work' | relative_url }}">Work</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-          <details class="nav-dropdown">
-      <summary>Essays &amp; More</summary>
-      <div class="nav-dropdown-menu">
-        <a href="{{ '/ideas/' | relative_url }}">The Back Burner</a>
-        <a href="{{ '/viewing/' | relative_url }}">Required Viewing</a>
-      </div>
-    </details>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-      </nav>
-    </header>
-    <main id="content">{{ content }}</main>
-    <footer class="wrap footer">
-      <span>© {{ 'now' | date: '%Y' }} Kerry Ann Burke</span
-      ><span>Original stories for film, television and the page.</span>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#171719" />
+  <meta name="description" content="{{ page.description | default: site.description | escape }}" />
+  <title>
+    {% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title }}
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}">KERRY ANN BURKE</a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/#work' | relative_url }}">Work</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <details class="nav-dropdown">
+        <summary>Essays &amp; More</summary>
+        <div class="nav-dropdown-menu">
+          <a href="{{ '/ideas/' | relative_url }}">The Back Burner</a>
+          <a href="{{ '/viewing/' | relative_url }}">Required Viewing</a>
+          <a href="{{ '/essays/' | relative_url }}">All Essays</a>
+
+          <hr />
+          <div class="essay-header ">Latest Essays:</div>
+          {% assign essays = site.essays | sort: "date" | reverse %}
+
+          <div class="essay-list">
+
+            {% for essay in essays limit:5 %}
+
+            {% unless essay.status == "draft" %}
+            <div class="essay-entry">
+              <a href="{{ essay.url | relative_url }}">
+                {{ essay.display_title | default: essay.title }}
+                {% if essay.date %}
+                <time datetime="{{ essay.date | date: '%Y-%m-%d' }}">
+                  {{ essay.date | date: "%d %B %Y" }}
+                </time>
+              </a>
+
+            </div>
+            {% endif %}
+            {% endunless %}
+            {% endfor %}
+          </div>
+      </details>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+  <main id="content">{{ content }}</main>
+  <footer class="wrap footer">
+    <span>© {{ 'now' | date: '%Y' }} Kerry Ann Burke</span><span>Original stories for film, television and the
+      page.</span>
+  </footer>
+</body>
+
 </html>

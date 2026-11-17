@@ -1,0 +1,31 @@
+.book-float-left {
+  float: left;
+  padding: 0 1rem 1rem 1rem;
+  max-width: 350px;
+  max-height: auto;
+}
+
+.adaptation-entry {
+  display: flow-root;
+  margin-bottom: 2rem;
+  & .letter-dark {
+    background: var(--panel);
+    color: var(--text);
+
+    border-left: 3px solid var(--accent);
+    padding: 2rem 2.5rem;
+    margin: 2.5rem 2rem;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.05rem;
+    line-height: 1.8;
+
+    p:first-child {
+      margin-top: 0;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
