@@ -1,0 +1,35 @@
+
+.backburner-table th button {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.backburner-table th button:hover {
+  text-decoration: underline;
+}
+
+.backburner-table th button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.backburner-table th[aria-sort="ascending"] button::after {
+  content: " ▲";
+}
+
+.backburner-table th[aria-sort="descending"] button::after {
+  content: " ▼";
+}
+
+.backburner-table th[aria-sort="none"] button::after {
+  content: " ↕";
+  opacity: 0.45;
+}

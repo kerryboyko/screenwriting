@@ -3,6 +3,7 @@ layout: default
 title: The Back Burner
 permalink: /ideas/
 ---
+
 {% capture explain %}
 
 Not every idea arrives fully formed. Some start with a character, a situation, a question, or a premise that seems too interesting to leave alone.
@@ -29,8 +30,21 @@ I'm sharing them partly as a glimpse into the kinds of stories that interest me,
     that haven't quite escaped into the world.
   </p>
 
-{% assign ideas = site.ideas | sort: "date" | reverse%}
+{% assign ideas = site.ideas | sort: "title" %}
+
   {{ explain | markdownify }}
+
+<ul>
+    {% for idea in ideas %}
+     <li>
+          <a href="{{ idea.url | relative_url }}" class="marked_link">
+            {{ idea.display_title | default: idea.title }}
+          </a></li>
+      {% endfor %}
+</ul>
+
+    
+ 
 
   <div class="backburner-list">
     {% for idea in ideas %}
@@ -69,3 +83,4 @@ I'm sharing them partly as a glimpse into the kinds of stories that interest me,
   </div>
 
 </section>
+
