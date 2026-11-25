@@ -29,5 +29,7 @@ _Lucifer_ meets _The Big Short_
 
 The commodification of suffering. Bureaucracy as the devil’s playground. Moral compromise for profit. The fine print of redemption. Unintentional resistance as market manipulation.
 
-### Tagline
-_Bureaucratic Hell Has Never Been This Investable._
+### Taglines
+
+* _Bureaucratic Hell Has Never Been This Investable._
+* _Hell is too big to fail._ 
