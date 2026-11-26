@@ -39,6 +39,26 @@ Underneath the comedy, the show is about people maintaining systems they didn't 
 
 * Chlodmer Hogpen — Rogue Pen-Tester. Chlodmer is the odd duck in the office, the one who is _happy_ when he figures out how something breaks... by breaking it. He's religiously literal in a world built on euphemism and denial. Rules, to him, are hypotheses to be tested. He delights in unintended consequences. He's not reckless. He's _curious without fear._ The reason he's invaluable? He documents _everything_ he's learned. 
 
+### Episode Engine/Default Structure (Television Series)
+
+* The ticket — A client reports an apparently straightforward magical problem.
+* The investigation — The team discovers that the problem has been incorrectly described.
+* The dependency — Fixing it threatens something considerably more important.
+* The disagreement — Different professional priorities produce incompatible solutions.
+* The resolution — The team finds a workable, imperfect solution.
+* The aftermath — The client considers the entire affair unnecessarily expensive.
+
+### Potential Episode Concepts:
+
+* Legacy Support — A kingdom depends on a protective spell whose original creator died eight hundred years ago without documenting it.
+* Tuesday Again — A temporal correction traps the team in a recurring weekday, but management insists their billable hours aren't accumulating.
+* Works as Intended — A wealthy client's immortality spell functions exactly according to specifications. Unfortunately, the client continues ageing.
+* The Chosen One — A prophecy starts selecting thousands of simultaneous chosen ones following an attempted scalability improvement.
+* Divine Intervention — Brother Jacob discovers that a proposed maintenance procedure violates an obscure covenant with an extremely attentive god.
+* Bus Factor — Greybeard takes a holiday. Everyone discovers precisely how much undocumented knowledge resides inside his head.
+* End of Life — The team must retire an obsolete spell that has unexpectedly developed consciousness and refuses to be discontinued.
+* The Postmortem — A necromantic incident review becomes considerably more complicated when the deceased attend.
+
 ### Comps
 
 _Discworld_ meets _Silicon Valley_ with the pacing of _The Thick Of It_, and the episodic structure of _Brooklyn Nine-Nine_. 
@@ -49,9 +69,10 @@ Perceived vs. actual authority. Complex systems survive because people who don�
 
 ### Taglines
 
-_I don’t know what the spell does. I know what happens if we stop casting it._
-
-_They're the team that keeps the lights on. Though, in their case, the lights are stars._
+* _I don’t know what the spell does. I know what happens if we stop casting it._
+* _They're the team that keeps the lights on. Though, in their case, the lights are stars._
+* _Someone has to maintain reality._
+* _The world wasn't built in seven days. That's just what they told the client._
 
 ### Writer's Note
 

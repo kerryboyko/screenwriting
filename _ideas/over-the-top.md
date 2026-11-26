@@ -31,10 +31,20 @@ Over The Top is an episodic comedy with short-term bits and long-form consequenc
 
 By betting everything on the proposition that audiences still want things nobody would rationally commission, Over The Top constantly lives on the brink of disaster, with every victory bringing some new wrinkle. Morgan, Riley, and their team have to learn to embrace the absurdity, and hold on for dear life. 
 
+### Episode Ideas
+
+* The Algorithm — The platform's recommendation system becomes convinced that their comedy channel is an agricultural broadcaster.
+* Sweeps Week — David revives an obsolete television publicity strategy that unexpectedly attracts a massive audience.
+* The Bottle Episode — Riley attempts to shoot an entire feature inside a storage cupboard to satisfy a sponsor's impossible budget.
+* Free Trial — An enthusiastic marketing promotion attracts thousands of subscribers who have misunderstood what the service offers.
+* Standards and Practices — An advertiser objects to something completely innocuous while enthusiastically approving something genuinely outrageous.
+* Prestige — Morgan commissions an awards-friendly drama that the team accidentally turns into an avant-garde musical.
+* The Focus Group — Audience testing unanimously recommends removing everything that makes their most successful programme distinctive.
+Going Viral	Their least commercially valuable piece of content becomes an international phenomenon, and nobody can figure out why.
+
 ### Comps
 
 Combining the prestige media satire of _The Studio_, the workplace absurdity of _30 Rock_, and the anything-can-happen Dadaism of _UHF_ and the Zucker-Abrahams-Zucker films, _Over The Top_ is a story about dreamers and darers out-crazying the insanity of modern media.
-
 
 ### Themes
 
