@@ -5,6 +5,7 @@ category: "Dramatic Irony, Experimentation, Reconstruction"
 summary: "Everyone told me it was a classic, possibly the best movie ever. No one ever explained why..."
 poster: "assets/images/movieposters/pulp-fiction-1994.jpg"
 imdb: "https://www.imdb.com/title/tt0110912"
+date: 2026-11-26 08:37:25
 ---
 
 {% capture mia_scene %}

@@ -17,7 +17,7 @@ comps:
   - Sarah And Duck (2013)
   - Pingu (1986)
   - Ada Twist, Scientist (2021)
-
+date: 2026-11-26 08:38:32
 ---
 
 <div class="project-synopsis" markdown="1">

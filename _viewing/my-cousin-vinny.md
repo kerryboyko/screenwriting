@@ -5,6 +5,7 @@ category: "Stakes"
 summary: "My Cousin Vinny uses its escalating stakes as a source of comedy, rather than allowing the comedy to distract from those stakes."
 poster: "assets/images/movieposters/my-cousin-vinny.jpg"
 imdb: "https://www.imdb.com/title/tt0104952"
+date: 2026-11-26 08:36:58
 ---
 {% capture biological_clock %}
 

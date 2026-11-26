@@ -15,6 +15,8 @@ layout: default
     <p class="eyebrow">THE PORTFOLIO</p>
     <p class="eyebrow">SELECTED WORK · FILM / TELEVISION / BOOKS</p>
   </div>
+    <a class="marked_link" href="{{ '/feed/projects.xml' | relative_url }}">Subscribe to the portfolio via RSS <span class="social-icon png"><img
+        src="{{ '/assets/images/icon_pngs/rss.png' | relative_url }}" /></span></a>
   <div class="project-grid">
     {% assign sorted_projects = site.projects | sort: 'order' %} {% for project
     in sorted_projects %}

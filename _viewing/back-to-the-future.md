@@ -5,6 +5,7 @@ category: "Structure"
 summary: "Is it the best movie of all time? Maybe not. Is it the best structured, best paced, best plotted? Possibly."
 poster: "assets/images/movieposters/back-to-the-future.jpg"
 imdb: "https://www.imdb.com/title/tt0088763"
+date: 2026-11-26 08:36:35
 ---
 
 {% capture strickland_scene %}

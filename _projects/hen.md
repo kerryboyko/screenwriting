@@ -14,6 +14,8 @@ tagline: "She was there. Until he opened his eyes."
 genre: Drama
 length: 2 pages
 status: Available for Consideration
+date: 2026-11-26 08:38:32
+
 ---
 
 <div class="project-synopsis" markdown="1">

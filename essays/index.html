@@ -9,10 +9,16 @@ permalink: /essays/
 
   <h1>Essays</h1>
 
+    <a class='marked_link' href="{{ '/feed/essays.xml' | relative_url }}">Subscribe to Essays via RSS <span class="social-icon png"><img
+        src="{{ '/assets/images/icon_pngs/rss.png' | relative_url }}" /></span></a>
+
+
   <p class="lead">
     Writing about stories, culture, technology, and the peculiar business of
     being human.
   </p>
+
+
 
   {% assign essays = site.essays | sort: "date" | reverse %}
 

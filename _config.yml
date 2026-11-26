@@ -3,6 +3,15 @@ description: Screenwriting, fiction and comedy
 url: "https://kerryboyko.github.io"
 baseurl: "/screenwriting"
 markdown: kramdown
+plugins:
+  - jekyll-feed
+feed:
+  excerpt_only: true
+  collections:
+    - viewing
+    - ideas
+    - projects
+    - essays
 collections:
   projects:
     output: true

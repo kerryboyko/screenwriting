@@ -14,6 +14,7 @@ order: 6
 comps: 
   - The Discovery (2017)
   - Everything Everywhere All At Once (2022)
+date: 2026-11-26 08:38:32
 
 ---
 

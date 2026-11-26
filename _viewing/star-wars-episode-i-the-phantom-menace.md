@@ -5,6 +5,7 @@ category: "Learning From Imperfection"
 summary: "What George Lucas's horrible prequel teaches us about characterization, dramatic economy, and the difference between spectacle and drama."
 poster: "assets/images/movieposters/star-wars-episode-i-the-phantom-menace-1999-yts-ag.jpg"
 imdb: "https://www.imdb.com/title/tt0120915/"
+date: 2026-11-26 08:37:14
 ---
 
 I firmly believe this is a must-watch for any film student. And then after they've watched it, they should immediately consult the [Red Letter Media review of the movie](https://www.youtube.com/watch?v=FxKtZmQgxrI).

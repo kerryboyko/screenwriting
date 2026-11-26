@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /master-feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.url }}{{ site.baseurl }}</link>
+    <description>{{ site.description | xml_escape }}</description>
+    <language>en</language>
+
+    {% assign entries = site.documents
+      | where_exp: "item", "item.date"
+      | sort: "date"
+      | reverse %}
+
+    {% for item in entries limit: 100 %}
+      <item>
+        <title>{{ item.title | xml_escape }}</title>
+        <link>{{ item.url | absolute_url | xml_escape }}</link>
+        <category>{{ item.collection | xml_escape }}</category>
+        <guid isPermaLink="true">{{ item.url | absolute_url | xml_escape }}</guid>
+        <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+        <description>{{ item.content | markdownify | strip_html | truncatewords: 100 | xml_escape }}</description>
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>

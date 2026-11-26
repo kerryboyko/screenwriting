@@ -12,6 +12,9 @@ permalink: /viewing/
   <p class="eyebrow">SCREENWRITING CRAFT</p>
   <h1>Required Viewing</h1>
 
+    <a class="marked_link" href="{{ '/feed/viewing.xml' | relative_url }}">Subscribe to Required Viewing via RSS <span class="social-icon png"><img
+        src="{{ '/assets/images/icon_pngs/rss.png' | relative_url }}" /></span></a>
+
   {{ intro_text | strip | markdownify }} 
   
   {% assign movies = site.viewing | sort:
